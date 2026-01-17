@@ -1,0 +1,12 @@
+! 放行 Notion 的核心域名
+@@||notion.so^
+@@||notion.com^
+@@||notion.site^
+@@||notion.new^
+
+! 放行 Notion 使用的 API 和服务 (解决 n8n 连接问题)
+@@||api.notion.com^
+@@||msgstore.www.notion.so^
+
+! 放行 Notion 的日志/遥测服务 (解决图1中的 Splunk 延迟问题)
+@@||http-inputs-notion.splunkcloud.com^
